@@ -38,7 +38,7 @@ body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-img {
+.desktop-image {
   height: 25rem;
   width: 17rem;
   border-bottom-left-radius: 15px;
@@ -116,4 +116,34 @@ button {
 
 .cart-button-container p {
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    flex-direction: column;
+    height: 40rem;
+    width: 22rem;
+    border-radius: 15px;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    height: 15rem;
+    width: 22rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .text {
+    width: 22rem;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 14px;
+  }
 }
