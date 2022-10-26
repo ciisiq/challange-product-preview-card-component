@@ -23,3 +23,15 @@ font-family: 'Montserrat', sans-serif; */
 body {
   background-color: var(--cream);
 }
+
+.card {
+  display: flex;
+
+  height: 25rem;
+  width: 50rem;
+  background-color: var(--white);
+}
+
+img {
+  height: 25rem;
+}
