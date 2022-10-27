@@ -29,6 +29,8 @@ body {
   gap: 20px;
 }
 
+/* --------- CARD --------- */
+
 .card {
   display: flex;
   height: 25rem;
@@ -37,6 +39,8 @@ body {
   border-radius: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+/* --------- IMAGE  --------- */
 
 .mobile-image {
   display: none;
@@ -48,6 +52,8 @@ body {
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
 }
+
+/* --------- TEXT ON CARD  --------- */
 
 .text {
   width: 17rem;
@@ -82,6 +88,8 @@ body {
   line-height: 20px;
 }
 
+/* --------- PRICE --------- */
+
 .real-price {
   font-family: "Fraunces", serif;
   color: var(--dark-cyan);
@@ -93,6 +101,10 @@ body {
   align-items: center;
 }
 
+.sr-only {
+  display: none;
+}
+
 .discount {
   font-family: "Montserrat", sans-serif;
   margin-left: 18px;
@@ -100,6 +112,8 @@ body {
   text-decoration: line-through;
   font-size: 15px;
 }
+
+/* --------- BUTTON CART  --------- */
 
 .cart-button-container {
   display: flex;
@@ -126,6 +140,8 @@ button:hover {
 .cart-button-container p {
   margin-left: 10px;
 }
+
+/* --------- MOBILE VIEW  --------- */
 
 @media only screen and (max-width: 390px) {
   .card {
